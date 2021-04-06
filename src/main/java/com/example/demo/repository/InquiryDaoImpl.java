@@ -17,11 +17,8 @@ import com.example.demo.entity.Inquiry;
  */
 public class InquiryDaoImpl implements InquiryDao{
 	
-	private final JdbcTemplate jdbcTemplate;
-	
 	@Autowired
 	public InquiryDaoImpl(JdbcTemplate jdbcTemplate) {
-		this.jdbcTemplate = jdbcTemplate;
 	}
 
 	@Override
